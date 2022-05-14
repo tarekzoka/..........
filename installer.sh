@@ -6,7 +6,7 @@
 ###########################################
 #!/bin/sh
 echo
-wait
+
 rm -f /etc/enigma2/enigma2/jediplaylists/
 wait
 rm -f /etc/tuxbox/config/CCcam.cfg
