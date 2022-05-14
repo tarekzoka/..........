@@ -6,50 +6,36 @@
 ###########################################
 #!/bin/sh
 echo
-
-rm -f /etc/enigma2/enigma2/jediplaylists/
 wait
-rm -f /etc/tuxbox/config/CCcam.cfg
+rm -rf /etc/enigma2/jediplaylists/playlists.txt
 wait
-rm -f /etc/tuxbox/config/ncam.server
+rm -rf /etc/tuxbox/config/CCcam.cfg
 wait
-rm -f /etc/tuxbox/config/oscam.server
+rm -rf /etc/tuxbox/config/ncam.server
 wait
-rm -f /etc/enigma2/enigma2/jediplaylists/playlists.txt
+rm -rf /etc/tuxbox/config/oscam.server
 wait
-rm -f /etc/enigma2/enigma2/xstreamity/playlists.txt
+rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
-rm -f /etc/enigma2/enigma2/iptosat.conf
+rm -rf /etc/enigma2/iptosat.conf
 wait
-rm -f /etc/enigma2/enigma2/ipaudio.json
+rm -rf /etc/enigma2/ipaudio.json
 wait
-rm -f /etc/enigma2/enigma2/tsiplayer_xtream
+rm -rf /etc/enigma2/xstreamity/playlists.txtwait
 wait
-rm -f /etc/enigma2/enigma2/playlists
+rm -f /etc/enigma2/playlists
 wait
-rm -f /etc/enigma2/enigma2/playlist.e2pls
+rm -f /etc/enigma2/playlist.e2pls
 wait
 rm -f /etc/tsiplayer_xtream.conf
 wait
 sleep 2;
 exit
-##
-###########################################
-###########################################
-wget -O /tmp/tarekzoka/delserver echo "================================="
-set +e
-cd ..
+.....
+
+#!/bin/sh
+echo
+rm -rf /etc/enigma2/xstreamity/playlists.txt
 wait
-rm -f /tmp/$MY_IPK
-rm -f /tmp/$MY_DEB
-	if [ $? -eq 0 ]; then
-echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
-fi
-		echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   TAREK_TT "   
-sleep 4;
-		echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
-wait
-killall -9 enigma2
-exit 00
+sleep 2;
+exit
