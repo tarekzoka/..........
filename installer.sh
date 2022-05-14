@@ -5,31 +5,31 @@
 ###########################################
 ###########################################
 #!/bin/sh
-
+echo
 wait
-rm -r /etc/enigma2/enigma2/jediplaylists/
+rm -f /etc/enigma2/enigma2/jediplaylists/
 wait
-rm -r /etc/tuxbox/config/CCcam.cfg
+rm -f /etc/tuxbox/config/CCcam.cfg
 wait
-rm -r /etc/tuxbox/config/ncam.server
+rm -f /etc/tuxbox/config/ncam.server
 wait
-rm -r /etc/tuxbox/config/oscam.server
+rm -f /etc/tuxbox/config/oscam.server
 wait
-rm -r /etc/enigma2/enigma2/jediplaylists/playlists.txt
+rm -f /etc/enigma2/enigma2/jediplaylists/playlists.txt
 wait
-rm -r /etc/enigma2/enigma2/xstreamity/playlists.txt
+rm -f /etc/enigma2/enigma2/xstreamity/playlists.txt
 wait
-rm -r /etc/enigma2/enigma2/iptosat.conf
+rm -f /etc/enigma2/enigma2/iptosat.conf
 wait
-rm -r /etc/enigma2/enigma2/ipaudio.json
+rm -f /etc/enigma2/enigma2/ipaudio.json
 wait
-rm -r /etc/enigma2/enigma2/tsiplayer_xtream
+rm -f /etc/enigma2/enigma2/tsiplayer_xtream
 wait
-rm -r /etc/enigma2/enigma2/playlists
+rm -f /etc/enigma2/enigma2/playlists
 wait
-rm -r /etc/enigma2/enigma2/playlist.e2pls
+rm -f /etc/enigma2/enigma2/playlist.e2pls
 wait
-rm -r /etc/tsiplayer_xtream.conf
+rm -f /etc/tsiplayer_xtream.conf
 wait
 sleep 2;
 exit
